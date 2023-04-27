@@ -14,8 +14,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import vtoan.n.jetpackcomposeexample.modifiers.*
+import vtoan.n.jetpackcomposeexample.layout.CustomLayoutApp
 import vtoan.n.jetpackcomposeexample.modifiers.actions.*
+import vtoan.n.jetpackcomposeexample.layout.PageExampleApp
 import vtoan.n.jetpackcomposeexample.ui.theme.JetpackComposeExampleTheme
 
 class MainActivity : ComponentActivity() {
@@ -29,7 +30,9 @@ class MainActivity : ComponentActivity() {
                 //ModifierClickableApp()
                 //ModifierIndicationApp()
 //                ModifierPointerApp()
-                GestureActionsApp()
+//                GestureActionsApp()
+//                PageExampleApp()
+                CustomLayoutApp()
             }
 
         }
